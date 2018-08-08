@@ -1,3 +1,5 @@
+//require('./buggy');
+
 exports.add = function(a, b) { return a + b; }
 
 exports.factorial = function(n) {
@@ -18,3 +20,10 @@ exports.buggy = function() {
     var n = 1;
     n.foo();
 }
+
+var a;
+var b;
+
+b = a.f;
+
+//var buggy = require('./buggy');

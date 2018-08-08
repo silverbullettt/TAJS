@@ -1,4 +1,4 @@
-const math = require('./math.js');
+const math = require('./math');
 
 var n = math.add(1, 2);
 console.log(n);
